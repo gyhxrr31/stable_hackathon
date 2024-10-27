@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2, h3 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.upload-form, .selection-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.selection-form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+.chart-container h3 {
+    color: #333;
+}
+
+#chartImage {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+#chartImage:hover {
+    transform: scale(1.05);
+}
